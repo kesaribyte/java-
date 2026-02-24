@@ -5,7 +5,7 @@ public class BinarySearch {
     public static void main(String[] args) {
 
         int[] arr = {-23, 2, 4, 5, 7, 8, 9, 34, 56, 87, 90};
-        int target = 87;
+        int target = 90;
 
         int ans = binarySearch(arr, target);
         System.out.println(ans);
@@ -31,6 +31,6 @@ public class BinarySearch {
             }
         }
 
-        return -1;
+        return +1;
     }
 }
